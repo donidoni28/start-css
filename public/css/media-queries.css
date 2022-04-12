@@ -1,0 +1,46 @@
+@media screen and (max-width:425px) {
+    a,p{
+        font-size: x-small;
+    }
+    h3{
+        font-size: small;
+    }
+    .brand{
+        display: none;
+    }
+    .link{
+        flex-direction: column;
+    }
+    form{
+        padding: 0;
+    }
+    form > button{
+        width: 100%;
+    }
+    .portfolio{
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+    footer{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding: 0;
+    }
+    footer .footer-about p{
+        width: fit-content;
+        padding: 0.2em;
+    }
+    footer > div {
+        padding: 0;
+    }
+    .about{
+        padding: 0;
+    }
+    .footer-about{
+        display: flex;
+        align-items: center;
+    }
+    .icon{
+        padding: 0;
+    }
+}
